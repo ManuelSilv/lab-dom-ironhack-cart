@@ -1,8 +1,6 @@
-input {
-  border: solid 1px black;
-}
 
-.btn {
+
+button {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
@@ -24,18 +22,74 @@ input {
   border-radius: 4px;
 }
 
-.btn-success {
-    color: #fff;
+.calc-prices-button {
+    color: white;
+    font-style: oblique;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: white;
+
 }
 
-.btn-delete {
+.new-item-create {
+  color: white;
+  font-style: oblique;
+  background-color: gray;
+  border-color: gray;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: white;
+
+}
+
+.delete-button {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
+    border-radius: 5px;
 }
 
-.quantity {
-  margin: 0 5px;
+
+.product-wrap {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
 }
+
+.container {
+margin: 0 auto;
+width: 80%;
+}
+
+#scoreContainer {
+  background-color: rgb(46, 45, 45);
+}
+
+
+.store-brand {
+    text-align: center;
+    margin: auto;
+  }
+
+
+#total {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  
+  display: inline-block;
+  
+}
+
+.calc-prices-button{
+
+  display: inline-block;
+}
+
+
+
+
